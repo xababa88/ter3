@@ -1,0 +1,30 @@
+   82  cat php_france_2019.csv | sort -u
+   83  head php_france_2019.csv
+   84  head wilders.csv
+   85  grep "PHP;France;2019" < wilders.csv | wc php_france_2019.csv
+   86  grep "PHP;France;2019" < wilders.csv | >wc php_france_2019.csv
+   87  head wilders0csv
+   88  head wilders.csv
+   89  grep PHP wilder.csv | grep 2019 wilders0csv | grep France wilder.csv >php_france_2019.csv
+   90  grep PHP wilder.csv | grep 2019 wilders.csv | grep France wilder.csv >php_france_2019.csv
+   91  grep PHP wilders.csv | grep 2019 wilders.csv | grep France wilders.csv >php_france_2019.csv
+   92  head php_france_2019.csv
+   93  head wilders0csv
+   94  head wilders.csv
+   95  grep France wilders >france
+   96  grep France wilders.csv >france.csv
+   97  head france.csv
+   98  grep PHP france.csv >php.csv
+   99  head php.csv
+  100  grep 2019 php.csv >php_france_2019.csv
+  101  head php_france_2019.csv
+  102  head wilders.csv
+  103  grep JavaScript >java
+  104  grep JavaScript >java.csv
+  105  grep JavaScript wilders.csv >java.csv
+  106  head java.csv
+  107  grep Toulouse java.csv | grep Biarritz java.csv >javascript_biarritz_toulouse.csv
+  108  head javascript_biarritz_toulouse.csv
+  109  history tail
+  110  history | tail -n 400 >history.txt
+  111  history | tail -n 30 >history.txt
