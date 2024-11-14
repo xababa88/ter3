@@ -28,3 +28,7 @@
   109  history tail
   110  history | tail -n 400 >history.txt
   111  history | tail -n 30 >history.txt
+  112  grep "France" wilders.csv | grep "2019" | grep "PHP" | wc -l > php_france_2019.csv
+  113  ls
+  114  head php_france_2019.csv
+  115  history | tail -n 34 >history.txt
